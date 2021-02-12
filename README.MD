@@ -4,7 +4,8 @@ It aims to teach engineers modern software development skils that are useful no 
 This spring semester, we are teaching Web App Development using VueJS.
 
 ## Lesson Plan
-1. Lesson 1 introduces HTML and CSS to attendees. We cover basic HTML layout, HTML tags, and CSS properties.
+1. Lesson 1 introduced HTML and CSS. We covered basic HTML layout, HTML tags, and CSS properties.
+2. Lesson 2 introduces JavaScript. We cover basic JavaScript and how to add it to a web page.
 
 # Using this repository
 Each weekly lesson contains several demonstration programs and checkpoints. The files for the current week can be found in the 'master' branch.

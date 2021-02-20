@@ -20,8 +20,8 @@ console.log("Hello World" != "hello world"); // Not only numbers
 console.log("  strictness:")
 console.log( 1 == '1');
 console.log( 1 === '1');
-console.log( 1 != '1');
-console.log( 1 !== '1');
+console.log( 1 != '2');
+console.log( 1 !== '2');
 
 console.log("--------------");
 
@@ -49,4 +49,8 @@ let i = 0;
 while(i < 4) {
     console.log(i);
     i += 1;
+}
+
+for(i=0;i<4;i++) {
+    console.log(i);
 }

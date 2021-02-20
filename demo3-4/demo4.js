@@ -1,9 +1,10 @@
 // Creates a basic JavaScript object
 let object = {
     school: "Purdue",
-    location: "WebEx",
+    location: "Zoom",
     participants: 50,
-    isOnline: true
+    isOnline: true,
+    array: [1,4,50,-4],
 };
 
 // Prints the object to the screen

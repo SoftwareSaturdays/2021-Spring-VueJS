@@ -5,7 +5,8 @@ This spring semester, we are teaching Web App Development using VueJS.
 
 ## Lesson Plan
 1. Lesson 1 introduced HTML and CSS. We covered basic HTML layout, HTML tags, and CSS properties.
-2. Lesson 2 introduces JavaScript. We cover basic JavaScript and how to add it to a web page.
+2. Lesson 2 introduced JavaScript. We covered basic JavaScript and how to add it to a web page.
+3. Lesson 3 introduces VueJS. We cover basic formatting, the Vue instance, and v- directives.
 
 # Using this repository
 Each weekly lesson contains several demonstration programs and checkpoints. The files for the current week can be found in the 'master' branch.

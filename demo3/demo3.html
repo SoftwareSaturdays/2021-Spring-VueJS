@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Remember I said we would tell you what to put here? Don't worry about these -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Lesson 4 Demo 3</title>
+        <link rel="stylesheet" href="demo3.css" />
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <h1 class="heading">Lesson 4, Demo 3</h1>
+        <h2 class="heading">More VueJS</h2>
+        <div id="app">
+            <p>These are more Vue components.</p>
+            <br>
+            <demo-component v-bind:click="click_count">
+                <child-component v-on:press="handle_press"></child-component>
+            </demo-component>
+        </div>
+        <script src="demo3.js" ></script>
+    </body>
+</html>

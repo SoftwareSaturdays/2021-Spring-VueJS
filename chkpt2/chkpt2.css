@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#app {
+    text-align: center;
+}
+
+.heading {
+    color: black;
+    text-decoration: underline;
+}
+
+.data-wrapper {
+    text-align: left;
+    width: 40%;
+    margin: 0px auto;
+    background-color: #c9d6ce;
+    padding: 15px;
+}
+
+.data-entry {
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 10px
+}

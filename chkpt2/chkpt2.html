@@ -5,17 +5,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Lesson 5 Demo 2</title>
-        <link rel="stylesheet" href="demo2.css" />
+        <title>Lesson 5 Checkpoint</title>
+        <link rel="stylesheet" href="chkpt2.css" />
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     </head>
     <body>
-        <h1 class="heading">Lesson 5, Demo 2</h1>
+        <h1 class="heading">Lesson 5 Checkpoint</h1>
         <h2 class="heading">NoSQL Databases</h2>
         <div id="app">
-            <p>To view the database read, please look at your browser console.</p>
+            <p>This page will auto-populate with data from the database.</p>
+            <div class="data-wrapper">
+                <database v-for="item in data_list" v-bind:key="item.title" v-bind:title="item.title" v-bind:data="item.data"></database>
+            </div>
         </div>
         <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
-        <script src="demo2.js" ></script>
+        <script src="chkpt2.js" ></script>
     </body>
 </html>

@@ -1,0 +1,26 @@
+{
+  "fall2019" : {
+    "final" : "Chat Service",
+    "location" : "ARMS B061",
+    "program" : "Android Apps",
+    "school" : "Purdue"
+  },
+  "fall2020" : {
+    "final" : "Pokedex App",
+    "location" : "WebEx",
+    "program" : "ReactJS",
+    "school" : "Purdue"
+  },
+  "spring2020" : {
+    "final" : "YouTube Clone",
+    "location" : "WALC 1087",
+    "program" : "ReactJS",
+    "school" : "Purdue"
+  },
+  "spring2021" : {
+    "final" : "To-Do App",
+    "location" : "Zoom",
+    "program" : "VueJS",
+    "school" : "Purdue"
+  }
+}

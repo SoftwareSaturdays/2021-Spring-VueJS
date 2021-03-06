@@ -16,7 +16,7 @@
             <p>These are more Vue components.</p>
             <br>
             <demo-component v-bind:click="click_count">
-                <child-component v-on:press="handle_press"></child-component>
+                <child-component v-on:press="handle_press" v-on:other="handle_other"></child-component>
             </demo-component>
         </div>
         <script src="demo3.js" ></script>
